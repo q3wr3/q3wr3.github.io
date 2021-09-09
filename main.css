@@ -111,7 +111,7 @@ header {
     gap: 30px;
 }
 
-.links .link:hover {
+.link:hover {
     text-shadow: 0px 0px 3px #797979;
 }
 
@@ -149,6 +149,14 @@ header {
 
 .flex-end {
     align-self: flex-end;
+}
+
+.title {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Trebuchet MS';
+    margin-bottom: .25em;
 }
 
 
@@ -207,4 +215,16 @@ header {
 .fakeInfo::selection {
   color: white;
   background: black;
+}
+
+
+.contactBtn {
+    padding: 0.7rem 2.5rem;
+    background: white;
+}
+
+.about .link {
+    width: max-content;
+    margin: 0 auto;
+    margin-top: -20px;
 }

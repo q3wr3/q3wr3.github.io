@@ -236,3 +236,9 @@ header {
   margin-left: 30px;
   margin-top: 100px;
 }
+
+.contact {
+  display: grid;
+  place-items: center;
+  margin-top: 64px;
+}
